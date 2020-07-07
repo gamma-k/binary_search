@@ -20,7 +20,7 @@ int main(){
     scanf("%d", &A[i]);
   }
   lb = 0;
-  ub = 500000001;
+  ub = 1000000000;
   while(ub - lb > 1){
     int mid = (ub + lb) / 2;
     if(p(mid)){
